@@ -1,0 +1,39 @@
+body {
+  background-image: url(img/d09d86e06b0ebb8f78b2a410505b1e05.jpg);
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.cell {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.snake {
+  background-color: rgb(162, 240, 162);
+}
+
+.apple {
+  background-color: #f00;
+  border-radius: 50%;
+}
+
+.score {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.restart-button {
+  display: block;
+  border: none;
+  margin: 10px auto;
+  background-color: bisque;
+}
